@@ -12,6 +12,17 @@
 		"ev network" : "Non-Networked"
 	},
 	{
+		"station name" : "Element Hotels - Ewing",
+		"street address" : "1000 Sam Weinroth Rd",
+		"city" : "Ewing",
+		"state" : "NJ",
+		"country" : "US",
+		"zipcode" : "08628",
+		"latitude" : 40.28652,
+		"longitude" : -74.80752,
+		"ev network" : "Non-Networked"
+	},
+	{
 		"station name" : "PALMER SQUARE CHAMBERS GARAGE",
 		"street address" : "25 Chambers St",
 		"city" : "Princeton",

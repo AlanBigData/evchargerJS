@@ -4,10 +4,10 @@ from pathlib import Path
 
 def git_commit_and_push(file_to_commit, commit_message):
     # Add the file to the staging area
-    subprocess.run(['git', 'add', str(file_to_commit)])
+    subprocess.run(['git', 'add', '-a', str(file_to_commit)])
 
     # Commit the changes
-    subprocess.run(['git', 'commit', '-m', commit_message])
+    subprocess.run(['git', 'commit', '-am', commit_message])
 
     # Push the changes to GitHub
     subprocess.run(['git', 'push', 'origin', 'master'])
